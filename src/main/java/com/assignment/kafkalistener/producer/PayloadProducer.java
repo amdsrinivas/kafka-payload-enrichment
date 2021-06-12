@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 public class PayloadProducer {
     private final KafkaTemplate kafkaTemplate ;
 
+    @Autowired
     public PayloadProducer(KafkaTemplate kafkaTemplate) {
         this.kafkaTemplate = kafkaTemplate;
     }

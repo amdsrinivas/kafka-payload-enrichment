@@ -2,7 +2,6 @@ package com.assignment.kafkalistener.service;
 
 import com.assignment.kafkalistener.dal.CountryDAL;
 import com.assignment.kafkalistener.model.City;
-import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
